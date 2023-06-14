@@ -27,7 +27,8 @@ header {
   height: 51px;
   width: 497px;
   padding: 16px 20px 16px 20px;
-  margin-left: 545px;
+  margin-left: 525px;
+  margin-right: 120px;
 }
 .navigation__link {
   width: 87px;
@@ -38,7 +39,8 @@ header {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-right: 35px;
+  margin-left: 35px;
+  cursor: pointer;
 }
 .navigation__link:hover {
   color: #0b0706;
@@ -47,24 +49,24 @@ header {
   transform: scale(1.1);
 }
 
-.submit__btn {
+
+
+.submit__btn2{
   width: 115px;
-  height: 43px;
-  border: 1px solid none;
-  border-radius: 5px;
-  transition: 0.4s;
-  background: rgba(0, 0, 0, 0.63);
+    height: 43px;
+    border: 1px solid none;
+    border-radius: 5px;
+    transition: 0.4s;
+    background: rgba(0, 0, 0, 0.63);
+    font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      padding: 12px 32px;
+      color: #fff;
 }
-.submit__btn a {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: right;
-  text-align: center;
-  color: #fff;
-}
-.submit__btn:hover {
+.submit__btn2:hover {
   background-color: #000000;
+  transition: 0.5s;
 }
 .responsive__menu--icon {
   display: none;
@@ -158,6 +160,8 @@ header {
 }
 .modal-body ul li a:hover {
   color: #000;
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 .modal-footer {
   padding: 2px 16px;
