@@ -42,6 +42,9 @@ header {
 }
 .navigation__link:hover {
   color: #0b0706;
+  transition: 0.5s;
+  margin-top: 15px;
+  transform: scale(1.1);
 }
 
 .submit__btn {
