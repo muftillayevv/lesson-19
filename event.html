@@ -8,6 +8,118 @@
 </head>
 <body>
     <div id="background">
+        <header>
+            <div class="header__container">
+              <div class="header__navbar">
+                <div class="header__logo">
+                  <a href="./index.html">
+                    <img
+                      src="./images/home/Client-first-template logo.svg"
+                      alt="This is the logo of the site you are viewing"
+                    />
+                  </a>
+                </div>
+                <div class="header__navbar--box">
+                  <div class="navbar__navigation">
+                    <ul class="navigation__list">
+                      <li class="navigation__item">
+                        <a class="navigation__link" href="./index.html">Home</a>
+                      </li>
+                      <li class="navigation__item">
+                        <a class="navigation__link" href="./about-us.html"
+                          >About us</a
+                        >
+                      </li>
+                      <li class="navigation__item">
+                        <a class="navigation__link" href="./what-we-do.html"
+                          >What We Do</a
+                        >
+                      </li>
+                      <li class="navigation__item">
+                        <a class="navigation__link" href="./media.html">Media</a>
+                      </li>
+                      <li class="navigation__item">
+                        <a class="navigation__link" href="./contact-us.html"
+                          >Contact</a
+                        >
+                      </li>
+                    </ul>
+      
+                    <!-- The Modal has started -->
+                    <div class="responsive__menu--icon">
+                      <button id="myBtn">
+                        <img
+                          src="./images/home/menu-svgrepo-com.svg"
+                          alt=" "
+                          width="40"
+                          height="40"
+                        />
+                      </button>
+      
+                      <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <span class="close">&times;</span>
+                          </div>
+                          <div class="modal-body">
+                            <ul>
+                              <li>
+                                <a href="./index.html">Home</a>
+                              </li>
+                              <li>
+                                <a href="./about-us.html">About us</a>
+                              </li>
+                              <li>
+                                <a href="./what-we-do.html">What We Do</a>
+                              </li>
+                              <li>
+                                <a href="./media.html">Media</a>
+                              </li>
+                              <li>
+                                <a href="./contact-us.html">Contact</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="modal-footer"></div>
+                        </div>
+                      </div>
+                    </div>
+      
+                    <!-- The Modal has started -->
+                  </div>
+      
+                  <div class="navbar__btn">
+                    <button class="submit__btn" type="submit">
+                      <a href="./donation.html">Donate</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+      
+          <script>
+            var modal = document.getElementById("myModal");
+      
+            var btn = document.getElementById("myBtn");
+      
+            var span = document.getElementsByClassName("close")[0];
+      
+            btn.onclick = function () {
+              modal.style.display = "block";
+            };
+      
+            span.onclick = function () {
+              modal.style.display = "none";
+            };
+      
+            window.onclick = function (event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            };
+          </script>
         <main>
             <section id="earth">
                 <div class="container earth__container">
