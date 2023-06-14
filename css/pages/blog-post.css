@@ -1,9 +1,11 @@
 @import "../base/global.css";
 
+
 /*climate*/
+
 .climate__container {
     margin-top: 96px;
-   
+
 }
 
 .climate__content-box {
@@ -41,8 +43,26 @@
     margin-right: 20px;
 }
 
-/*mattis*/
+@media (max-width:1220px) {
+    .climate__img-box img {
+        max-width: 103%;
+        flex-shrink: 0;
+    }
+}
 
+@media (max-width:930px) {
+    .climate__text-on {
+        font-size: 14px;
+    }
+    .climate__title {
+        font-size: 52px;
+    }
+    .climate__text-in {
+        font-size: 14px;
+    }
+}
+
+/*mattis*/
 .mattis__big-box {
     max-width: 1024px;
     margin: 0 auto;
@@ -115,4 +135,23 @@
 .in {
     margin-bottom: 96px;
 }
-
+@media (max-width:930px) {
+    .mattis__first-title {
+        font-size: 45px;
+    }
+    .mattis__first-text{
+        font-size: 13px;
+    }
+    .mattis__second-title{
+        font-size: 25px;
+    }
+    .mattis__item{
+        font-size: 13px;
+    }
+    .mattis__third-title{
+        font-size: 25px;
+    }
+    .mattis__sub-text{
+        font-size: 13px;
+    }
+}
