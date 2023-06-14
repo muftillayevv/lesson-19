@@ -1,6 +1,8 @@
 @import "../base/global.css";
 
+
 /*climate*/
+
 .climate__container {
     margin-top: 96px;
    
@@ -42,7 +44,6 @@
 }
 
 /*mattis*/
-
 .mattis__big-box {
     max-width: 1024px;
     margin: 0 auto;
@@ -115,4 +116,5 @@
 .in {
     margin-bottom: 96px;
 }
+
 
