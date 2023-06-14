@@ -1,1 +1,129 @@
 @import "../base/global.css";
+
+/*climate*/
+.climate__container {
+    margin-top: 96px;
+   
+}
+
+.climate__content-box {
+    text-align: center;
+}
+
+.climate__text-on {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 32px;
+    color: #1D2130;
+}
+
+.climate__title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    margin-bottom: 16px;
+    color: #1D2130;
+}
+
+.climate__text-in {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 48px;
+    color: #525560;
+}
+
+.climate__img-box {
+    display: inline-block;
+    flex-shrink: 0;
+    margin-bottom: 96px;
+    margin-right: 20px;
+}
+
+@media (max-width:1330px) {
+    .climate__container {
+      
+    }
+}
+
+/*mattis*/
+
+.mattis__big-box {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.mattis__first-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    margin-bottom: 32px;
+    color: #1D2130;
+}
+
+.mattis__first-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+}
+
+.first {
+    margin-bottom: 30px;
+}
+
+.second {
+    margin-bottom: 30px;
+}
+
+.third {
+    margin-bottom: 30px;
+}
+
+.mattis__second-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    margin-bottom: 16px;
+    color: #1D2130;
+}
+
+.mattis__item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    list-style: disc;
+    margin-left: 15px;
+    color: #525560;
+}
+
+.mattis__third-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: #1D2130;
+}
+
+.mattis__sub-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+}
+
+.on {
+    margin-bottom: 30px;
+}
+
+.in {
+    margin-bottom: 96px;
+}
+
+@media (max-width:1330px) {
+    .mattis__container {
+     max-width: 100vw;
+    }
+}
