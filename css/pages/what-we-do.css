@@ -76,6 +76,7 @@ font-weight: 400;
 @media screen and (max-width:900px) {
   .header__text {
     max-width: 400px;
+
   }
 }
 
@@ -90,6 +91,7 @@ font-weight: 400;
   .header__text {
     max-width: 400px;
     margin-top: 15px;
+    display: none;
   }
 }
 @media screen and (max-width:691px) {
@@ -123,6 +125,7 @@ font-weight: 400;
 
 #hero{
   padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .hero__sentence{
@@ -193,5 +196,85 @@ font-weight: 400;
 
     .hero__text{
       max-width: 450px;
+    }
+}
+
+/*environment*/
+#environment{
+  padding-top: 69px;
+  padding-bottom: 69px;
+  background-color: #EFF7F2;
+}
+
+
+
+.wrapper{
+  padding: 96px 110px;
+}
+
+.environment__card{
+display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 48px;
+  column-gap: 64px;
+}
+
+.environment__title{
+  font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #1D2130;
+    margin-bottom: 64px;
+}
+
+.card__img{
+  width: 28px;
+  height: 28px;
+}
+
+
+.card__subtitle{
+  margin-bottom: 8px;
+  font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1D2130;
+}
+
+.card__cont{
+display: flex;
+gap: 24px;
+}
+
+.card__text{
+  max-width: 332px;
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #525560;
+}
+
+@media screen and (max-width:1000px) {
+
+  .environment__title{
+    max-width: 494px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .environment__card {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 48px;
+      column-gap: 64px;
+    }
+}
+
+@media screen and (max-width:720px) {
+  .environment__card {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 48px;
     }
 }
