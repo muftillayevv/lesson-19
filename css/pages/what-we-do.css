@@ -397,3 +397,95 @@ gap: 24px;
       max-width: 600px;
     }
 }
+/*volunteer*/
+
+#volunteer{
+  padding-top: 96px;
+  padding-bottom: 188px;
+}
+
+.volunteer__title{
+    max-width: 631px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+}
+
+.volunteer__container{
+  background-image:url(../../images/what-we-do/volunteer__bcg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.volunteer__content{
+  text-align: center;
+margin: 0 auto;
+padding-top: 93px;
+}
+
+.volunteer__btn1{
+  padding: 16px 32px;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #70C174;
+backdrop-filter: blur(40px);
+border-radius: 4px;
+}
+
+.volunteer__btn2{
+  padding: 16px 32px;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D2130;
+    background: #FFFFFF;
+      backdrop-filter: blur(40px);
+      border-radius: 4px;
+}
+
+.volunteer__btns{
+  margin-top: 32px;
+  padding: 93px 325px;
+  text-align: center;
+}
+
+.volunteer__btn1:hover{
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
+
+.volunteer__btn2:hover{
+  background-color: #70C174;
+  color: #fff;
+  transition: 1s;
+}
+
+@media screen and (max-width:1000px) {
+
+  .volunteer__container{
+    max-width: 900px;
+  }
+  .volunteer__btns {
+      flex-direction: column;
+      flex-direction: column-reverse;
+    }
+
+
+}
+
+@media screen and (max-width:900px) {
+  .volunteer__container{
+    max-width: 800px;
+  }
+  .volunteer__btn1{
+    max-width: 100px;
+  }
+}
