@@ -20,7 +20,7 @@ header {
 .header__navbar--box {
   display: flex;
   align-items: center;
-  margin-right: 50px;
+  margin-right: 15px;
 }
 .navigation__list {
   display: flex;
