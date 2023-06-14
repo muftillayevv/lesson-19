@@ -278,3 +278,122 @@ gap: 24px;
       row-gap: 48px;
     }
 }
+
+/*cards*/
+
+#cards{
+  padding-top: 96px;
+}
+
+
+.cards__list{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.cards__sentence{
+  font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D2130;
+    text-align: center;
+}
+
+.cards__title{
+  max-width: 700px;
+  font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #1D2130;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: 64px;
+}
+
+.cards__text{
+  max-width: 315px;
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 64px;
+}
+
+.cards__btn{
+  padding: 16px 32px;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D2130;
+    background: #FFFFFF;
+      backdrop-filter: blur(40px);
+      border-radius: 4px;
+      margin-top: 64px;
+}
+
+.cards__btn:hover{
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #EFF7F2;
+}
+
+.cards__subtitle{
+  max-width: 315px;
+  font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.cards__item{
+  max-width: 411px;
+}
+
+.cards__wrapper{
+  padding: 80px 48px 48px 48px;
+}
+
+.item1{
+  background-image: url(../../images/what-we-do/cards__img2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+    height: 421px;
+}
+
+.item2{
+  background-image: url(../../images/what-we-do/cards__img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 421px;
+}
+
+.item3{
+  background-image: url(../../images/what-we-do/cards__img3.png); 
+  background-repeat: no-repeat;
+    background-size: cover;
+    height: 421px;
+}
+
+.cards__item:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width:1200px) {
+  .cards__list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
+    .cards__title{
+      max-width: 600px;
+    }
+}
