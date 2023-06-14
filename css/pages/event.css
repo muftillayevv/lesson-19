@@ -1,1 +1,99 @@
 @import "../base/global.css";
+
+/*earth*/
+#background {
+    padding-bottom: 110px;
+    background: #EFF7F2;
+}
+
+.earth__big-box {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.earth__title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    padding-top: 96px;
+    margin-bottom: 48px;
+    color: #1D2130;
+}
+
+.earth__text-box {
+    display: flex;
+    align-items: center;
+
+}
+
+.earth__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D2130;
+    display: flex;
+    align-items: center;
+}
+
+.last {
+    padding-left: 78px;
+}
+
+.start::before {
+    content: "";
+    display: inline-block;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/event/location-logo.svg);
+}
+
+.last::before {
+    content: "";
+    display: inline-block;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/event/bug-logo.svg);
+}
+
+/*morbi*/
+.morbi__container {
+    margin-top: 96px;
+}
+
+.morbi__big-box {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.morbi__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    margin-bottom: 32px;
+    color: #1D2130;
+}
+
+.morbi__sub-text-on {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 34px;
+    color: #525560;
+}
+
+.morbi__sub-text-in {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 32px;
+    color: #525560;
+}
+
+.morbi__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin-top: 32px;
+    margin-bottom: 96px;
+    color: #525560;
+}
