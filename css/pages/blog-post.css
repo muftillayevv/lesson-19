@@ -41,12 +41,6 @@
     margin-right: 20px;
 }
 
-@media (max-width:1330px) {
-    .climate__container {
-      
-    }
-}
-
 /*mattis*/
 
 .mattis__big-box {
@@ -122,8 +116,3 @@
     margin-bottom: 96px;
 }
 
-@media (max-width:1330px) {
-    .mattis__container {
-     max-width: 100vw;
-    }
-}
