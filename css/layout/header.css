@@ -15,6 +15,7 @@ header {
 }
 .header__logo {
   margin: 20px 20px;
+  flex-shrink: 0;
 }
 
 .header__navbar--box {
