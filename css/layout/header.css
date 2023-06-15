@@ -33,11 +33,11 @@ header {
   height: 51px;
   width: 497px;
   padding: 16px 20px 16px 20px;
-  margin-left: 525px;
+  margin-left: 371px;
   margin-right: 120px;
 }
 
-.navigation__item+.navigation__item{
+.navigation__item+.navigation__item {
   margin-left: 40px;
 }
 
