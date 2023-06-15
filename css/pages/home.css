@@ -1048,8 +1048,6 @@ main {
 /* Blog page`s style */
 
 /* Event page`s style */
-.event__container {
-}
 .event__cardbox {
   max-width: 1280px;
   display: flex;
