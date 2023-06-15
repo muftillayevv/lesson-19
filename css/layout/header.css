@@ -40,7 +40,7 @@ header {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: 35px;
+  /* margin-left: 15px; */
   cursor: pointer;
 }
 .navigation__link:hover {
