@@ -5,9 +5,179 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Contact-us | Husanbek Yahyoqulov</title>
-    <link rel="stylesheet" href="contact-us.html">
+    <link rel="stylesheet" href="./css/layout/footer.css">
+    <link rel="stylesheet" href="./css/layout/header.css">
 </head>
 <body>
-    
+  <header>
+    <div class="header__container">
+      <div class="header__navbar">
+        <div class="header__logo">
+          <a href="./index.html">
+            <img
+              src="./images/contact-us/Shape.svg"
+              alt="This is the logo of the site you are viewing"
+            />
+          </a>
+        </div>
+        <div class="header__navbar--box">
+          <div class="navbar__navigation">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a class="navigation__link" href="./index.html">Home</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="./about-us.html"
+                  >About us</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="./what-we-do.html"
+                  >What We Do</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="./media.html">Media</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="./contact-us.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+
+            <!-- The Modal has started -->
+            <div class="responsive__menu--icon">
+              <button id="myBtn">
+                <img
+                  src="./images/home/menu-svgrepo-com.svg"
+                  alt=" "
+                  width="40"
+                  height="40"
+                />
+              </button>
+
+              <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">&times;</span>
+                  </div>
+                  <div class="modal-body">
+                    <ul>
+                      <li>
+                        <a href="./index.html">Home</a>
+                      </li>
+                      <li>
+                        <a href="./about-us.html">About us</a>
+                      </li>
+                      <li>
+                        <a href="./what-we-do.html">What We Do</a>
+                      </li>
+                      <li>
+                        <a href="./media.html">Media</a>
+                      </li>
+                      <li>
+                        <a href="./contact-us.html">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- The Modal has started -->
+          </div>
+
+          <div class="navbar__btn">
+            <button class="submit__btn" type="submit">
+              <a href="./donation.html">Donate</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    var modal = document.getElementById("myModal");
+
+    var btn = document.getElementById("myBtn");
+
+    var span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function () {
+      modal.style.display = "block";
+    };
+
+    span.onclick = function () {
+      modal.style.display = "none";
+    };
+
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+  </script>
+  
+
+
+
+
+  <footer>
+    <div class="footer__container">
+        <div class="footer__logo">
+            <img src="./images/contact-us/Shape.svg" alt="">
+        </div>
+        <div class="footer__service">
+             <ul class="footer__service--list">
+                   <span>
+                    Our Team
+                   </span>
+
+                   <li> <a href="./../about-us.html">About us</a></li>
+                   <li> <a href="">Team</a></li>
+                   <li> <a href="./../what-we-do.html">What we do</a></li>
+                   <li> <a href="./../contact-us.html">Contact</a></li>
+             </ul>
+             <ul class="footer__service--list">
+                <span>
+                    More
+                </span>
+
+                <li> <a href="./../project.html">Projects</a></li>
+                <li> <a href="./../event.html">Events</a></li>
+                <li> <a href="./../donation.html">Donate</a></li>
+                <li> <a href="./../blog-post.html">Blog</a></li>
+          </ul>
+          <ul class="footer__service--list">
+            <span>
+                Connect                 </span>
+
+            <li> <a href="https://www.facebook.com/">Facebook</a></li>
+            <li> <a href="https://www.instagram.com/">Instagram</a></li>
+            <li> <a href="https://twitter.com/">Twitter</a></li>
+            <li> <a href="https://www.linkedin.com/">Linkdin</a></li>
+      </ul>
+        </div>
+        <div class="footer__register">
+             <div class="footer__register--title">
+                <h3>
+                    Subscribe to get latest updates
+                </h3>
+             </div>
+             <div class="footer__register--btn">
+                <form>
+                    <input type="text" placeholder="Your Email" required minlength="8">
+                    <button>
+                        Subscribe
+                    </button>
+                </form>
+             </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
